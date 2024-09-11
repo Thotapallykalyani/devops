@@ -3,13 +3,18 @@ agent any
 stages{
 stage('Build and Test'){
 steps{
-echo "Build and Test"
+echo 'Build and Test'
+}
+}
+stage(Generate Artifact'){
+steps{
+echo "hello"
 }
 }
 }
 post{
 success{
-echo "build successfully"
+echo "pipeline completed successfully"
 }
 }
 }
