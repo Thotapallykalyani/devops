@@ -1,0 +1,15 @@
+pipeline{
+agent any
+stages{
+stage('Build and Test'){
+steps{
+echo "Build and Test"
+}
+}
+}
+post{
+success{
+echo "build successfully"
+}
+}
+}
