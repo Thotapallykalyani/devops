@@ -6,7 +6,7 @@ steps{
 echo 'Build and Test'
 }
 }
-stage(Generate Artifact'){
+stage('Generate Artifact'){
 steps{
 echo "hello"
 }
